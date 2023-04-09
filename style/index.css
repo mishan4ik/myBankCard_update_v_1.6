@@ -1,0 +1,67 @@
+.block_main_myBank{
+
+    width: 350px;
+    min-height: 450px;
+    background-color: #3f9ad3;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+
+}
+
+.come{
+
+    margin-top: 140px;
+    width: 100px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #000;
+    color: red;
+    box-shadow: 1px 5px 5px #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+
+.block_password{
+
+    margin-top: 50px;
+
+}
+
+.block_password p,.block_password input {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+
+
+}
+.pass{
+
+    width: 260px;
+    height: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.infoPass,.infoUser{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+    margin-top: 20px;
+
+
+
+}

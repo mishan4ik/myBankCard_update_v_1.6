@@ -1,0 +1,122 @@
+.block_card_main{
+
+    width: 350px;
+    height: 450px;
+    background-color: #3f9ad3;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+
+
+
+}
+.block_card{
+
+    width: 275px;
+    height: 150px;
+    background-color: #000;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+
+}
+
+.numberCard{
+
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:5px;
+
+}
+
+.block_date{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+
+}
+.block_code{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_cvv{
+
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    
+
+}
+.date{
+
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px
+}
+
+.cvv{
+
+    font-size: 14px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px;
+    text-align: center;
+
+}
+
+.block_cvv_number{
+
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+
+.cvv_number{
+
+    font-size: 14px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px;
+    text-align: center;
+
+}
+
+.block_return img{
+
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+#number_cvv{
+
+    display: none;
+
+}
+.ownerCard_name,.ownerCard,.department_name,.department_text,.IBAN_name,.IBAN_text{
+
+    font-size: 14px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+
+}

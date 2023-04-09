@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/myBank.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="block_main">
+
+        <div class="block_card_main">
+
+            <div class="main_card">
+
+        <div class="block_card" id="block_card" >
+
+            <h2 class="sum" id="sum"></h2>
+            <h5 class="card">your card</h5>
+
+
+
+        </div><!--block_card-->
+    </div>
+
+        <div class="block_result">
+
+            <p>Введіть сумму на яку хочете поповнити баланс картки або зняти з неї</p>
+            <div class="block_text">
+            <input type="text" class="inp" id="inp">
+        </div>
+        <div class="block_btns_topup">
+
+            <button class="btn_replenishment" id="btn_two_hundred">200</button>
+            <button class="btn_replenishment" id="btn_two hundred_and_fifty">250</button>
+            <button class="btn_replenishment" id="btn_five_hundred">500</button>
+            <button class="btn_replenishment" id="btn_thousand">1000</button>
+
+        </div><!--block_btns_topup_amount-->
+            <button class="btn" id="btn">Зняти готівку</button>
+            <div class="block_add">
+            <button class="btn" id="btn1">Поповнити баланс</button>
+        </div>
+        <div class="block_add">
+            <button class="btn" id="btn2">Перевести з картки</button>
+        </div>
+            <p class="answer" id="answer"></p>
+
+
+
+        </div><!--block_result-->
+
+        
+    </div><!--block_card_main-->
+
+    <div class="block_card_transaction" id="block_card_transaction">
+
+        <div class="block_cross" id="transaction_cross">
+
+            <img src="./img/myBank/cross.png" alt="">
+
+        </div><!--block_cross-->
+
+        <div class="transaction_main">
+    
+
+        <p class="transaction_info_card">Введіть номер банківської картки</p>
+        <input class="info_card" id="info_card" type="text">
+        <p class="answer" id="answer_card"></p>
+        <p class="summa_info_card">Введіть суму яку Ви хочете перевести на свій рахунок</p>
+        <input class="sum_card" id="sum_card" type="text">
+        <div class="block_add">
+        <p class="answer" id="answer_transfer"></p>
+            <button class="btn" id="btn3">Перевести</button>
+        </div>
+
+
+
+</div>
+
+</div><!--block_card_main-->
+
+    </div><!--block_main-->
+
+</body>
+<script src="./js/myBank.js"></script>
+<script src="./js/topup.js"></script>
+</html>
